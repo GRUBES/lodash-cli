@@ -1,29 +1,28 @@
 {
   "name": "lodash-cli",
-  "version": "4.7.0",
-  "description": "The lodash command-line interface.",
+  "version": "4.11.1",
+  "description": "The Lodash command-line interface.",
+  "keywords": "builder, compile, customize, lodash",
   "homepage": "https://lodash.com/custom-builds",
+  "repository": "lodash/lodash-cli",
   "license": "MIT",
   "preferGlobal": true,
+  "private": true,
   "main": "bin/lodash",
-  "bin": {
-    "lodash": "bin/lodash"
-  },
-  "keywords": "builder, compile, customize, lodash",
+  "bin": { "lodash": "bin/lodash" },
   "author": "John-David Dalton <john.david.dalton@gmail.com> (http://allyoucanleet.com/)",
   "contributors": [
     "John-David Dalton <john.david.dalton@gmail.com> (http://allyoucanleet.com/)",
     "Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)",
     "Mathias Bynens <mathias@qiwi.be> (https://mathiasbynens.be/)"
   ],
-  "repository": "lodash/lodash-cli",
   "scripts": {
     "test": "echo \"See the repository CONTRIBUTING.md for testing instructions.\""
   },
   "dependencies": {
     "closure-compiler": "0.2.10",
     "glob": "7.0.3",
-    "lodash": "4.7.0",
+    "lodash": "4.11.1",
     "semver": "5.1.0",
     "uglify-js": "2.6.2"
   },
@@ -31,7 +30,7 @@
     "babel-cli": "^6.6.5",
     "babel-preset-es2015": "^6.6.0",
     "qunit-extras": "^1.5.0",
-    "qunitjs": "~1.23.0"
+    "qunitjs": "~1.23.1"
   },
   "files": [
     "bin/lodash",
